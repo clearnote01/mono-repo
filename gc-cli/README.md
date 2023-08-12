@@ -1,0 +1,1 @@
+Better gcp error reporting because the current api sucks and the `gcloud` is bare-bones

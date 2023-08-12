@@ -1,0 +1,35 @@
+{
+    "group": {
+        "name": "projects/sonova-marketing/groups/CLXiuYva9cSTlQE",
+        "groupId": "CLXiuYva9cSTlQE",
+        "resolutionStatus": "OPEN"
+    },
+    "count": "7",
+    "firstSeenTime": "2023-06-20T22:41:50.319886Z",
+    "lastSeenTime": "2023-07-04T03:25:43Z",
+    "affectedServices": [
+        {
+            "service": "prod-eu-customer-service-middleware",
+            "version": "prod-eu-customer-service-middleware-00017-haj",
+            "resourceType": "cloud_run_revision"
+        }
+    ],
+    "numAffectedServices": 1,
+    "representative": {
+        "eventTime": "2023-07-01T04:16:24.817545Z",
+        "serviceContext": {
+            "service": "prod-eu-customer-service-middleware",
+            "version": "prod-eu-customer-service-middleware-00017-haj",
+            "resourceType": "cloud_run_revision"
+        },
+        "message": "Service unavailable Zendesk. Error: Could not fetch Lead Ticket for OHT Patient [ZendeskServiceError]\n    at OhtService.updateTicketWithOhtResult (/app/dist/services/customer-service-middleware/dist/services/oht/ohtService.js:65:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async OhtController.updateWithOhtResult (/app/dist/services/customer-service-middleware/dist/controllers/oht.controller.js:32:16)\nCaused By: Error: Could not fetch Lead Ticket for OHT Patient\n    at new ZendeskServiceError (/app/dist/services/customer-service-middleware/dist/models/zendesk.js:8:46)\n    at OhtService.updateTicketWithOhtResult (/app/dist/services/customer-service-middleware/dist/services/oht/ohtService.js:65:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async OhtController.updateWithOhtResult (/app/dist/services/customer-service-middleware/dist/controllers/oht.controller.js:32:16)",
+        "context": {
+            "httpRequest": {
+                "method": "POST",
+                "url": "http://api.sonova.xyz/api/v1/de/oht/tickets?",
+                "responseStatusCode": 500,
+                "remoteIp": "::ffff:169.254.1.1"
+            }
+        }
+    }
+}

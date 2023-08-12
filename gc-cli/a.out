@@ -1,0 +1,201 @@
+{
+  "errorGroupStats": [
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/CPOl4M2Tk_-iCw",
+        "groupId": "CPOl4M2Tk_-iCw",
+        "resolutionStatus": "ACKNOWLEDGED"
+      },
+      "count": "69",
+      "firstSeenTime": "2023-06-15T13:52:11.077876Z",
+      "lastSeenTime": "2023-06-29T11:55:06Z",
+      "affectedServices": [
+        {
+          "service": "prod-de-lgw-http-server",
+          "version": "prod-de-lgw-http-server-00057-bav",
+          "resourceType": "cloud_run_revision"
+        },
+        {
+          "service": "prod-uk-lgw-http-server",
+          "version": "prod-uk-lgw-http-server-00048-riw",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 2,
+      "representative": {
+        "eventTime": "2023-06-23T20:55:59.088041Z",
+        "serviceContext": {
+          "service": "prod-uk-lgw-http-server",
+          "version": "prod-uk-lgw-http-server-00047-nap",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "Form not found book-hearing-test-hclearer [Error]\n    at FormsProvider.get (/app/dist/services/lead-generation-server/dist/services/formsProvider.js:40:19)\n    at runMicrotasks (\u003canonymous\u003e)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async FormsController.forms (/app/dist/services/lead-generation-server/dist/controllers/forms.controller.js:50:26)",
+        "context": {
+          "httpRequest": {
+            "method": "GET",
+            "url": "https://forms.hearingclearer.co.uk/api/v1/forms/book-hearing-test-hclearer?env=",
+            "responseStatusCode": 500,
+            "remoteIp": "94.1.27.63"
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/CLzo7L3B4_76-wE",
+        "groupId": "CLzo7L3B4_76-wE",
+        "resolutionStatus": "ACKNOWLEDGED"
+      },
+      "count": "15",
+      "firstSeenTime": "2022-09-15T09:20:04.903695Z",
+      "lastSeenTime": "2023-06-29T11:53:51Z",
+      "affectedServices": [
+        {
+          "service": "prod-de-lgw-http-server",
+          "version": "prod-de-lgw-http-server-00057-bav",
+          "resourceType": "cloud_run_revision"
+        },
+        {
+          "service": "prod-uk-lgw-http-server",
+          "version": "prod-uk-lgw-http-server-00048-riw",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 2,
+      "representative": {
+        "eventTime": "2023-05-18T10:53:34.766716Z",
+        "serviceContext": {
+          "service": "prod-de-lgw-http-server",
+          "version": "prod-de-lgw-http-server-00050-mot",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "NotFoundError: Form not found apple-app-site-association\n    at FormsProvider.get (/app/dist/services/lead-generation-server/dist/services/formsProvider.js:40:19)\n    at runMicrotasks (\u003canonymous\u003e)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async FormsController.forms (/app/dist/services/lead-generation-server/dist/controllers/forms.controller.js:50:26)"
+      }
+    },
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/CIrKxMayof6eVw",
+        "groupId": "CIrKxMayof6eVw",
+        "resolutionStatus": "ACKNOWLEDGED"
+      },
+      "count": "6",
+      "firstSeenTime": "2023-06-07T10:59:00.379098Z",
+      "lastSeenTime": "2023-06-29T10:59:47Z",
+      "affectedServices": [
+        {
+          "service": "prod-eu-upload-offline-conversions",
+          "version": "prod-eu-upload-offline-conversions-00020-riq",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 1,
+      "representative": {
+        "eventTime": "2023-06-25T08:55:18.627530Z",
+        "serviceContext": {
+          "service": "prod-eu-upload-offline-conversions",
+          "version": "prod-eu-upload-offline-conversions-00019-feg",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "Make sure you specify a valid conversion action set up for offline import., at conversions[0].conversion_action"
+      }
+    },
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/COXGgIKMpu3MFg",
+        "groupId": "COXGgIKMpu3MFg",
+        "resolutionStatus": "ACKNOWLEDGED"
+      },
+      "count": "6",
+      "firstSeenTime": "2023-06-20T09:35:55.491968Z",
+      "lastSeenTime": "2023-06-29T10:59:47Z",
+      "affectedServices": [
+        {
+          "service": "prod-eu-upload-offline-conversions",
+          "version": "prod-eu-upload-offline-conversions-00020-riq",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 1,
+      "representative": {
+        "eventTime": "2023-06-24T16:08:11.178433Z",
+        "serviceContext": {
+          "service": "prod-eu-upload-offline-conversions",
+          "version": "prod-eu-upload-offline-conversions-00019-feg",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "Validation failed Make sure you specify a valid conversion action set up for offline import., at conversions[0].conversion_action [ValidationError]\n    at GoogleAdsService.uploadClickConversion (/app/dist/services/upload-offline-conversions/dist/services/googleAds.service.js:41:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async UploadOfflineConversionsService.upload (/app/dist/services/upload-offline-conversions/dist/services/uploadOfflineConversions.service.js:20:16)\n    at async UploadOfflineConversionsController.uploadConversion (/app/dist/services/upload-offline-conversions/dist/controllers/uploadOfflineConversions.controller.js:27:16)",
+        "context": {
+          "httpRequest": {
+            "method": "POST",
+            "url": "http://api.sonova.xyz/api/v1/upload-offline-conversions/upload",
+            "responseStatusCode": 400,
+            "remoteIp": "::ffff:169.254.1.1"
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/CLLhsKPBgMbXhAE",
+        "groupId": "CLLhsKPBgMbXhAE",
+        "resolutionStatus": "OPEN"
+      },
+      "count": "1",
+      "firstSeenTime": "2022-03-22T14:07:05.264056Z",
+      "lastSeenTime": "2023-06-29T11:11:22Z",
+      "affectedServices": [
+        {
+          "service": "prod-eu-customer-service-middleware",
+          "version": "prod-eu-customer-service-middleware-00017-haj",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 1,
+      "representative": {
+        "eventTime": "2023-06-23T08:45:33.840108Z",
+        "serviceContext": {
+          "service": "prod-eu-customer-service-middleware",
+          "version": "prod-eu-customer-service-middleware-00016-tub",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "undefined [undefined]\n    at checkRequestResponse (/app/dist/common/temp/node_modules/.pnpm/node-zendesk@2.1.0/node_modules/node-zendesk/lib/client/client.js:295:13)\n    at requestCallback (/app/dist/common/temp/node_modules/.pnpm/node-zendesk@2.1.0/node_modules/node-zendesk/lib/client/client.js:310:3)\n    at Request._callback (/app/dist/common/temp/node_modules/.pnpm/node-zendesk@2.1.0/node_modules/node-zendesk/lib/client/client.js:128:14)\n    at Request.self.callback (/app/dist/common/temp/node_modules/.pnpm/request@2.88.2/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:400:28)\n    at Request.\u003canonymous\u003e (/app/dist/common/temp/node_modules/.pnpm/request@2.88.2/node_modules/request/request.js:1154:10)\n    at Request.emit (events.js:400:28)\n    at IncomingMessage.\u003canonymous\u003e (/app/dist/common/temp/node_modules/.pnpm/request@2.88.2/node_modules/request/request.js:1076:12)\n    at Object.onceWrapper (events.js:519:28)\n    at IncomingMessage.emit (events.js:412:35)"
+      }
+    },
+    {
+      "group": {
+        "name": "projects/sonova-marketing/groups/CL2sjavy2Pf4SA",
+        "groupId": "CL2sjavy2Pf4SA",
+        "resolutionStatus": "OPEN"
+      },
+      "count": "1",
+      "firstSeenTime": "2023-06-21T08:01:35.714255Z",
+      "lastSeenTime": "2023-06-29T11:08:57Z",
+      "affectedServices": [
+        {
+          "service": "prod-eu-datalake-exporter",
+          "version": "prod-eu-datalake-exporter-00048-yuq",
+          "resourceType": "cloud_run_revision"
+        }
+      ],
+      "numAffectedServices": 1,
+      "representative": {
+        "eventTime": "2023-06-21T17:04:37.993844Z",
+        "serviceContext": {
+          "service": "prod-eu-datalake-exporter",
+          "version": "prod-eu-datalake-exporter-00047-gug",
+          "resourceType": "cloud_run_revision"
+        },
+        "message": "Cannot convert undefined or null to object [TypeError]\n    at Function.keys (\u003canonymous\u003e)\n    at CommonLeadParser.parseEntity (/app/dist/services/bigquery-exporter/dist/services/lead/commonLeadParser.js:89:20)\n    at BigQueryService.parseAndInsert (/app/dist/services/bigquery-exporter/dist/services/bigQuery.service.js:26:53)\n    at BigQueryController.insertEntity (/app/dist/services/bigquery-exporter/dist/controllers/bigQuery.controller.js:31:36)\n    at BigQueryController_insertEntity (/app/dist/services/bigquery-exporter/dist/routes/routes.js:348:53)\n    at runMicrotasks (\u003canonymous\u003e)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+        "context": {
+          "httpRequest": {
+            "method": "POST",
+            "url": "http://api.sonova.xyz/api/v1/uk/calendly?",
+            "responseStatusCode": 500,
+            "remoteIp": "::ffff:169.254.1.1"
+          }
+        }
+      }
+    }
+  ],
+  "timeRangeBegin": "2023-06-29T10:55:29Z"
+}
