@@ -1,0 +1,21 @@
+[Unit]
+Description=Custom Caddy (This is the systemd file i used instead of what Caddy already installs because of config issue )
+Documentation=https://caddyserver.com/docs/
+After=network.target network-online.target
+Requires=network-online.target
+ 
+[Service]
+Type=notify
+User=utkarsh
+Group=utkarsh
+ExecStart=/usr/bin/caddy run --environ --config /home/utkarsh/mono-repo/selfhost/Caddyfile
+ExecReload=/usr/bin/caddy reload --config /home/utkarsh/mono-repo/selfhost/Caddyfile --force
+TimeoutStopSec=5s
+LimitNOFILE=1048576
+LimitNPROC=512
+PrivateTmp=true
+ProtectSystem=full
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+ 
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,32 @@
+vm.utkarsh.de {
+	handle_path /* {
+		root * /home/utkarsh/mono-repo/selfhost/homer/dist
+		file_server browse
+	}
+	handle_path /bar {
+		respond "baz"
+	}
+	handle_path /dash {
+		root * /
+		file_server browse
+		reverse_proxy 127.0.0.1:8001
+	}
+}
+
+dashy.vm.utkarsh.de {
+	reverse_proxy 127.0.0.1:8080
+}
+
+container.vm.utkarsh.de {
+	handle_path /* {
+		respond "baz"
+	}
+}
+
+calibre.utkarsh.de {
+	reverse_proxy 127.0.0.1:8083
+}
+
+system.vm.utkarsh.de {
+	reverse_proxy 127.0.0.1:9090
+}

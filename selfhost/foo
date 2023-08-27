@@ -1,0 +1,8 @@
+vm.utkarsh.de {
+	handle_path /goo {
+		reverse_proxy :8080
+	}
+	handle_path /foo {
+		reverse_proxy :8000
+	}
+}
