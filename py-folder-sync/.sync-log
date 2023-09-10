@@ -1,0 +1,129 @@
+2023-09-06 23:41:26,823 - sync-service - INFO - New File foobar.py #d41d8cd98f00b204e9800998ecf8427e
+2023-09-06 23:41:41,857 - sync-service - INFO - Modified File hello.py #6aa7855e518c93e1f8140ee6b4817782
+2023-09-06 23:41:56,872 - sync-service - INFO - Removed File foobar.py #d41d8cd98f00b204e9800998ecf8427e
+2023-09-06 23:51:21,572 - sync-service - ERROR - dest does not exist
+2023-09-06 23:51:23,797 - sync-service - ERROR - dest does not exist
+2023-09-06 23:51:25,221 - sync-service - ERROR - dest does not exist
+2023-09-06 23:52:31,177 - sync-service - INFO - Modified File hello.py #7b210d0fc81fc43d272c3f2534d51d12
+2023-09-06 23:54:00,970 - sync-service - ERROR - Folder Path: dest does not exist
+2023-09-06 23:54:03,517 - sync-service - INFO - New File hello.py #7b210d0fc81fc43d272c3f2534d51d12
+2023-09-06 23:54:03,518 - sync-service - INFO - New File .sync-state #f20fd860b73dc06f1782e101b2ad8bf0
+2023-09-06 23:54:23,541 - sync-service - INFO - Modified File hello.py #71e71ad1b2edb4127b12862fd1f95ae4
+2023-09-06 23:54:33,553 - sync-service - INFO - New File hello.py #71e71ad1b2edb4127b12862fd1f95ae4
+2023-09-06 23:54:43,580 - sync-service - INFO - Deleted File .sync-state #f20fd860b73dc06f1782e101b2ad8bf0
+2023-09-06 23:55:16,986 - sync-service - INFO - New File hello.py #71e71ad1b2edb4127b12862fd1f95ae4
+2023-09-06 23:55:37,010 - sync-service - INFO - New File fooooo.py #d41d8cd98f00b204e9800998ecf8427e
+2023-09-06 23:55:42,016 - sync-service - INFO - Deleted File fooooo.py #d41d8cd98f00b204e9800998ecf8427e
+2023-09-06 23:55:47,022 - sync-service - INFO - New File foobar.oy #d41d8cd98f00b204e9800998ecf8427e
+2023-09-06 23:55:57,033 - sync-service - INFO - Modified File foobar.oy #f9c40bb0f03bd0a4ef7b6c0f3f61e771
+2023-09-07 00:01:03,371 - sync-service - INFO - Copying New File damn #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:01:27,673 - sync-service - INFO - Copying New File damn #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:01:37,681 - sync-service - INFO - Deleting File damn #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:01:52,698 - sync-service - INFO - Overwriting Modified File hello.py #bffc73634b8a38c4877ad954af96222b
+2023-09-07 00:04:21,029 - sync-service - INFO - Copying New File damn #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:04:26,033 - sync-service - INFO - Deleting File damn #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:04:31,036 - sync-service - INFO - Overwriting Modified File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:07:23,174 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:28,179 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:28,180 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:33,182 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:38,188 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:38,189 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:43,221 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:48,228 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:48,228 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:53,230 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:58,229 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:07:58,230 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:03,231 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:08,235 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:08,236 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:13,242 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:18,260 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:18,261 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:23,262 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:28,266 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:28,267 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:33,272 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:38,277 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:38,277 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:43,284 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:48,311 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:48,312 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:53,317 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:58,326 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:08:58,327 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:03,332 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:08,353 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:08,354 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:13,360 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:18,365 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:18,366 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:23,372 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:23,374 - sync-service - INFO - Deleting File foobar.oy #f9c40bb0f03bd0a4ef7b6c0f3f61e771
+2023-09-07 00:09:28,397 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:28,399 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:33,404 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:38,412 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:38,414 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:43,422 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:48,427 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:48,428 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:53,450 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:09:58,497 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:09:58,500 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:03,509 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:03,510 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:08,516 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:13,523 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:13,524 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:18,528 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:23,547 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:23,548 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:28,554 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:33,557 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:33,558 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:38,560 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:43,563 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:43,564 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:48,569 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:10:55,243 - sync-service - INFO - Copying New File src/hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:11:05,934 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:11:05,936 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:11:10,943 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:11:10,944 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:11:15,953 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:11:20,961 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:11:20,962 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:18:01,256 - sync-service - INFO - Deleting File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:18:16,288 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:18:24,119 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:18:59,140 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:18:59,145 - sync-service - INFO - Copying New File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:19:14,168 - sync-service - INFO - Deleting File doo/foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:19:46,138 - sync-service - INFO - Copying New File hello.py #ce739a1a2bd3c960672d99b00e847f93
+2023-09-07 00:23:03,454 - sync-service - INFO - Copying New File fodfd #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:38:21,551 - sync-service - INFO - Deleting Directory doo
+2023-09-07 00:38:46,588 - sync-service - INFO - Deleting Directory fodbdf
+2023-09-07 00:39:06,617 - sync-service - INFO - Creating Empty Directory hell
+2023-09-07 00:39:16,630 - sync-service - INFO - Copying New File hell/some #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:40:56,760 - sync-service - INFO - Deleting File hell/some #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:40:56,769 - sync-service - INFO - Deleting Directory hell
+2023-09-07 00:41:11,784 - sync-service - INFO - Creating Empty Directory do
+2023-09-07 00:41:41,897 - sync-service - INFO - Creating Empty Directory dok
+2023-09-07 00:41:46,924 - sync-service - INFO - Creating Empty Directory doi
+2023-09-07 00:44:42,891 - sync-service - INFO - Creating Empty Directory jkoo
+2023-09-07 00:44:58,930 - sync-service - INFO - Creating Empty Directory jkoo
+2023-09-07 00:48:25,810 - sync-service - INFO - Creating Empty Directory src/doi
+2023-09-07 00:48:56,545 - sync-service - INFO - Creating Empty Directory doi/jkoo
+2023-09-07 00:48:56,560 - sync-service - INFO - Creating Empty Directory doi/jk
+2023-09-07 00:50:16,707 - sync-service - INFO - Deleting Directory doi
+2023-09-07 00:50:16,710 - sync-service - INFO - Deleting Directory doi/jkoo
+2023-09-07 00:53:07,845 - sync-service - INFO - Deleting Directory do
+2023-09-07 00:53:12,853 - sync-service - INFO - Deleting Directory dok
+2023-09-07 00:53:22,865 - sync-service - INFO - Copying New File foo #d41d8cd98f00b204e9800998ecf8427e
+2023-09-07 00:53:27,895 - sync-service - INFO - Creating Empty Directory a
+2023-09-07 00:53:27,898 - sync-service - INFO - Creating Empty Directory a/b
+2023-09-07 00:54:46,676 - sync-service - INFO - Deleting Directory a
+2023-09-07 00:54:46,695 - sync-service - INFO - Deleting Directory a/b
+2023-09-07 00:54:46,695 - sync-service - INFO - Deleting Directory a/b/c
